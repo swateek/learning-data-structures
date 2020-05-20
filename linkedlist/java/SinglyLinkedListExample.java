@@ -1,14 +1,5 @@
 package linkedlist.java;
 
-class Node { 
-    Object data; 
-    Node next; 
-
-    Node(Object d){ 
-        data = d; 
-    } 
-} 
-
 class SingleLinkedList {
     Node head;
 
