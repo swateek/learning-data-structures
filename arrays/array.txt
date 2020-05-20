@@ -1,0 +1,33 @@
+a = [1, 2, 3, 4, 5]
+
+### Inserts an element at a given index
+    # 1. Get the element value which needs to be inserted.
+    # 2. Get the position value.
+    # 3. Check whether the position value is valid or not.
+    # 4. If it is valid,
+    #     Shift all the elements from the last index to position index by 1 position to the right.
+    #     insert the new element in arr[position]
+    # 5. Otherwise,
+    #     Invalid Position
+
+# Find the second minimum element of an array
+	# 1. Initialize both first and second smallest as INT_MAX
+   	# 	first = second = INT_MAX
+	# 2. Loop through all the elements.
+	#    a. If the current element is smaller than first, then update first 
+	#        and second. 
+	#    b. Else if the current element is smaller than second then update 
+	#     second
+
+# First non-repeating integers in an array
+	# 1. Traverse array and insert elements and their counts in hash table.
+	# 2. Traverse array again and print first element with count equals to 1.
+
+# Merge two sorted arrays
+	# (use merge sort)
+	# 1. Create an array arr3[] of size n1 + n2.
+	# 2. Simultaneously traverse arr1[] and arr2[]
+	# 	Pick smaller of current elements in arr1[] and arr2[], copy this smaller element to next position in arr3[] and move ahead in arr3[] and the array whose element is picked.
+	# 3. If there are remaining elements in arr1[] or arr2[], copy them also in arr3[].
+
+	
